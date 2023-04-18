@@ -8,4 +8,44 @@ Respuestas:
 2.-Cree una carpeta, y dentro de la misma un repositorio, ambos con el nombre
     fullstackpython
     - Se busca que sepamos  crear carpetas desde la terminal
-    -- md FULLSTACKPYTHON
+    --  md FULLSTACKPYTHON
+        git init
+
+3.- Genere una consulta que permite verificar el estado del repositorio
+    - A prender funcionamiento basica de git y evaluar su status antes de comenzar a trabajar.
+    -- git status
+
+4.- Cree un documento de texto de nombre contenidos.txt, que posea el siguiente contenido:
+    - crear documentos de prueba para el repositorio
+
+5.- Validar que el contenido ingresado esté efectivamente cargado. Verifique además el
+    tamaño del archivo y sus permisos de acceso.
+    - Revisar si git detecto el nuevo archivo creado / editado y su estado.
+    --  ls -la
+        git status
+
+6.- Añada el archivo al repositorio
+    - Aprender a añadir uno o todos los archivos creados / editador.
+    -- git add .
+
+7.- Aplique los cambios realizados sobre el repositorio, usando como mensaje “Primera
+    versión del temario subida a repositorio”
+    - Aprneder sobe como realizar un commit y su diferencia con un push.
+    --  git commit -m "Primera version del temario subida a repositorio"
+        git remote add origin https://github.com/fraxd/repositorio-python-test.git
+        git remote
+        git branch -M main
+        git push -u origin main
+
+8.- Añada una nueva línea al final del archivo, con el contenido “Módulo 2: Desarrollo de
+    aplicaciones web dinámicas con Python”.
+    - Evaluar como git detecta los cambios nuevos y actualizarlos.
+
+9.-Verificar qué cambios existen en el repositorio que deban ser almacenados
+    - Poder visualizar los cambios linea por linea y poder revisarlos en detalle.
+    -- git diff
+    
+10.-
+    -
+    --  git add .
+        git commit -m 
