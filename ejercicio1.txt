@@ -1,3 +1,6 @@
+Franco Fuentes Soto
+Repo: https://github.com/fraxd/repositorio-python-test
+
 Respuestas:
 
 1.- Sitúese en la carpeta en la que desee crear el repositorio.
@@ -44,8 +47,19 @@ Respuestas:
 9.-Verificar qué cambios existen en el repositorio que deban ser almacenados
     - Poder visualizar los cambios linea por linea y poder revisarlos en detalle.
     -- git diff
-    
-10.-
-    -
+
+10.-Aplicar nuevamente los cambios en el repositorio, esta vez con el mensaje “Versión
+    actualizada del contenido”
+    - Realizar un commit y push con el fin de aconstumbrarnos al proceso constante de actualizacion del repositorio respecto los cambios.
     --  git add .
-        git commit -m 
+        git commit -m "Verson Actualizada del contenido"
+        git push -u origin main
+
+11.- Ver el registro de cambios creados sobre el repositorio
+    - Permitirnos revisar el historial de cambios respecto al repositorios junto a fechas, autorias y cantidad de archivos afectados.
+    -- git log
+
+12.- Finalmente, validar el estado del repositorio
+    - Revisar si existen nuevas actualizaciones en el repositorios o si existen cambios por actualiar.
+    -- git status
+
